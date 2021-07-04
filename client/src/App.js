@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import 'bulma/css/bulma.min.css';
+import 'bulma/css/bulma.css';
 import './App.scss';
 
 function App() {
