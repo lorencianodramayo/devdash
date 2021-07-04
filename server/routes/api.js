@@ -1,6 +1,4 @@
 const express = require("express");
-const axios = require("axios");
-const { response } = require("express");
 const router = express.Router();
 
 const mysql = require('mysql');
@@ -9,6 +7,7 @@ const pool = mysql.createPool(db_config);
 
 router.get("/get_vailable", (req, res) => {
     pool.getConnection((err, connection) => {
+        console.log(err)
         connection.query(`select 
                             tblstaff.staffid, 
                             tblstaff.email, 
