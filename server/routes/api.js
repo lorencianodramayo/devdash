@@ -9,7 +9,6 @@ const pool = mysql.createPool(db_config);
 
 router.get("/get_vailable", (req, res) => {
     pool.getConnection((err, connection) => {
-        console.log(err)
         connection.query(`select 
                             tblstaff.staffid, 
                             tblstaff.email, 
