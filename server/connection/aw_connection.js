@@ -1,7 +1,7 @@
 const aw_connection = {
     host: 'ad-weave.io',
-    user: 'pjvknsmy',
-    password: '!kShCc5pTTgP@v9',
+    user: 'pjvknsmy_test',
+    password: 'DmtBz(bo8Yut',
     database: 'pjvknsmy_live',
     port: 3306
     // host: 'localhost',
